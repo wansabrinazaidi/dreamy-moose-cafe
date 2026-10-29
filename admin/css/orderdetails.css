@@ -1,0 +1,68 @@
+section {
+  margin: 100px 0;
+}
+
+.listorder {
+  margin: 20px;
+  border-radius: 15px;
+  height: 100%;
+  padding: 50px 20px;
+  font-size: 2rem;
+  background: #dec8ba;
+  gap: 10px;
+
+  div {
+    padding: 10px;
+    border-radius: 15px;
+    background: #708b7b;
+  }
+
+  .flex-row {
+    background: white;
+    padding: 10px;
+    border-radius: 25px;
+
+    img {
+      border-radius: 50%;
+      margin: 10px;
+      height: 40px;
+      padding: 10px;
+      background: #ffd700;
+    }
+  }
+}
+
+.orderdetails {
+  table {
+    border: solid 1px;
+    padding: 50px;
+  }
+
+  td {
+    font-size: 1.5rem;
+  }
+  h4,
+  h5 {
+    margin: 10px;
+  }
+}
+
+.button {
+  height: 100%;
+  justify-content: left;
+  margin: 0 20px;
+  padding-bottom: 300px;
+
+  font-size: 2rem;
+
+  a {
+    border-bottom: 8px solid #708b7b;
+
+    &:hover {
+      scale: 1.01;
+      background: white;
+      color: #6d3e1e;
+      box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.52);
+    }
+  }
+}

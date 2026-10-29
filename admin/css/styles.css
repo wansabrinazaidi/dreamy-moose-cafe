@@ -1,0 +1,195 @@
+@font-face {
+  font-family: "bangfel";
+  src: url("../assets/Bangfel.ttf");
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  background: url("../assets/images/bg1.jpg");
+  background-size: cover;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+  color: #6d3e1e;
+}
+
+.btn {
+  padding: 5px 40px;
+  color: #6d3e1e;
+  border: 1px solid #6d3e1e;
+  border-radius: 25px;
+  transition: 300ms ease-in-out;
+
+  &:hover{
+    background-color: #6d3e1e;
+    color: white;
+  }
+}
+
+navbar {
+  display: flex;
+  background: #fafafa;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 0 20px;
+  width: calc(100vw - 60px);
+
+  img {
+    height: 40px;
+  }
+
+  a {
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 5px 10px;
+    border-radius: 25px;
+  }
+
+  .active {
+    background: #c7a28a;
+  }
+}
+
+nav {
+  width: 70%;
+  max-width: 1200px; 
+  display: flex;
+  background: #708b7b;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  border-radius: 33px;
+  margin-top: 20px;
+  padding: 10px 50px;
+
+  label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px;
+    border-radius: 25px;
+    background: #becbc2;
+  }
+  input {
+    border-radius: 25px;
+    background: none;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  img {
+    height: 30px;
+  }
+
+  a {
+    font-family: "bangfel", sans-serif;
+    line-height: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 5px 10px;
+    border-radius: 25px;
+    font-weight: 600;
+    letter-spacing: 3px;
+  }
+
+  .active {
+    background: #c7a28a;
+  }
+}
+
+.main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  border: 0;
+  padding: 10px;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.p-0 {
+  padding: 0px;
+}
+.p-1 {
+  padding: 0.25rem;
+}
+.p-2 {
+  padding: 0.5rem;
+}
+.p-3 {
+  padding: 0.75rem;
+}
+.p-4 {
+  padding: 1rem;
+}
+.p-5 {
+  padding: 1.25rem;
+}
+.p-6 {
+  padding: 1.5rem;
+}
+.p-7 {
+  padding: 1.75rem;
+}
+.p-8 {
+  padding: 2rem;
+}
+.p-9 {
+  padding: 2.25rem;
+}
+.p-10 {
+  padding: 2.5rem;
+}
+.p-11 {
+  padding: 2.75rem;
+}
+.p-12 {
+  padding: 3rem;
+}
+.p-14 {
+  padding: 3.5rem;
+}
+.p-16 {
+  padding: 4rem;
+}
+.p-20 {
+  padding: 5rem;
+}

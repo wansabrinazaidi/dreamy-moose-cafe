@@ -1,0 +1,44 @@
+<svg id='bell-ringing_24' width='24' height='24' viewBox='0 0 24 24'
+    xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'>
+    <rect width='24' height='24' stroke='none' fill='#000000' opacity='0' />
+
+
+    <g transform="matrix(1 0 0 1 12 12)">
+        <g style="">
+            <g transform="matrix(1 0 0 1 0 0)">
+                <path
+                    style="stroke: none; stroke-width: 2; stroke-dasharray: none; stroke-linecap: round; stroke-dashoffset: 0; stroke-linejoin: round; stroke-miterlimit: 4; fill: none; fill-rule: nonzero; opacity: 1;"
+                    transform=" translate(-12, -12)" d="M 0 0 L 24 0 L 24 24 L 0 24 z"
+                    stroke-linecap="round" />
+            </g>
+            <g transform="matrix(1 0 0 1 -0.25 -2.25)">
+                <path
+                    style="stroke: #f00; stroke-width: 1.5; stroke-dasharray: none; stroke-linecap: round; stroke-dashoffset: 0; stroke-linejoin: round; stroke-miterlimit: 4; fill: none; fill-rule: nonzero; opacity: 1;"
+                    transform=" translate(-12, -10)"
+                    d="M 10 5 C 10 3.895430500338413 10.895430500338414 3 12 3 C 13.104569499661586 3 14 3.8954305003384126 14 4.999999999999999 C 16.340169623219687 6.106553584520206 17.878631161681227 8.414245892212515 18 11 L 18 14 C 18.152614532464217 15.26079640687781 18.894885829214413 16.374203352003104 20 17 L 4 17 C 5.105114170785587 16.374203352003104 5.847385467535782 15.26079640687781 6 14 L 6 11 C 6.121368838318771 8.414245892212515 7.65983037678031 6.106553584520208 10 5"
+                    stroke-linecap="round" />
+            </g>
+            <g transform="matrix(1 0 0 1 -0.25 6.75)">
+                <path
+                    style="stroke: #f00; stroke-width: 1.5; stroke-dasharray: none; stroke-linecap: round; stroke-dashoffset: 0; stroke-linejoin: round; stroke-miterlimit: 4; fill: none; fill-rule: nonzero; opacity: 1;"
+                    transform=" translate(-12, -19)"
+                    d="M 9 17 L 9 18 C 9 19.65685424949238 10.34314575050762 21 12 21 C 13.65685424949238 21 15 19.65685424949238 15 18 L 15 17"
+                    stroke-linecap="round" />
+            </g>
+            <g transform="matrix(1 0 0 1 7.35 -7.39)">
+                <path
+                    style="stroke: #f00; stroke-width: 1.5; stroke-dasharray: none; stroke-linecap: round; stroke-dashoffset: 0; stroke-linejoin: round; stroke-miterlimit: 4; fill: none; fill-rule: nonzero; opacity: 1;"
+                    transform=" translate(-19.6, -4.86)"
+                    d="M 21 6.727 C 20.344066433099687 5.300252886005985 19.39157382126129 4.0296945594770985 18.206000000000003 3.0000000000000044"
+                    stroke-linecap="round" />
+            </g>
+            <g transform="matrix(1 0 0 1 -7.85 -7.39)">
+                <path
+                    style="stroke: #f00; stroke-width: 1.5; stroke-dasharray: none; stroke-linecap: round; stroke-dashoffset: 0; stroke-linejoin: round; stroke-miterlimit: 4; fill: none; fill-rule: nonzero; opacity: 1;"
+                    transform=" translate(-4.4, -4.86)"
+                    d="M 3 6.727 C 3.6553497965555923 5.300439816483878 4.60714945809748 4.029896357111883 5.791999999999998 3.0000000000000036"
+                    stroke-linecap="round" />
+            </g>
+        </g>
+    </g>
+</svg>

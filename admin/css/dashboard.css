@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "bangfel";
+  src: url("../assets/Bangfel.ttf");
+}
+
+h1 {
+  font-size: 8rem;
+  text-wrap: wrap;
+  max-width: 5ch;
+  line-height: 8.2rem;
+  font-family: "bangfel", sans-serif;
+  margin: 10px;
+}
+
+h2 {
+  color: #425c4e;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.main {
+  margin-top: 10vh;
+}
+
+p {
+  font-size: 2rem;
+  margin: 0;
+  background: #b28363;
+  color: white;
+  padding: 3px 10px;
+  border-radius: 10px;
+
+  strong {
+    color: #425c4e;
+  }
+}
